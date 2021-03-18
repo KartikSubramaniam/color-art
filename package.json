@@ -1,0 +1,48 @@
+{
+  "name": "color-art",
+  "version": "1.0.0",
+  "private": true,
+  "description": "color-art",
+  "author": {
+    "name": "Kartik Subramaniam",
+    "email": "kartiknxg@gmail.com"
+  },
+  "homepage": "https://github.com/KartikSubramaniam/color-art",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KartikSubramaniam/color-art"
+  },
+  "dependencies": {
+    "color": "1.0.3"
+  },
+  "devDependencies": {
+    "flow-webpack-plugin": "0.3.6",
+    "flow-bin": "0.45.0",
+    "husky": "0.13.3",
+    "lint-staged": "3.4.1",
+    "prettier": "1.2.2",
+    "prettier-standard": "4.1.0",
+    "standard": "10.0.2",
+    "standard-flow": "1.0.0",
+    "stylus": "0.54.5"
+  },
+  "scripts": {
+    "format": "prettier-standard '*.js'",
+    "precommit": "lint-staged"
+  },
+  "lint-staged": {
+    "linters": {
+      "*.js": [
+        "prettier-standard",
+        "git add"
+      ]
+    }
+  },
+  "contributors": [
+    { "name": "Kartik Subramaniam", "email": "kartiknxg@gmail.com" },
+    
+  ],
+  "maintainers": [
+    { "name": "Kartik Subramaniam", "email": "kartiknxg@gmail.com" }
+  ]
+}

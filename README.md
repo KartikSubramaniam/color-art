@@ -2,6 +2,10 @@
 This is a Javascript Library which is a wraper around [**Color**](https://github.com/Qix-/color). 
 This library enhances the Color library to lighten and darken a given color to any extent based on the props passed.
 
+## 📖 Getting started
+
+`$ yarn add color-art`
+
 # 💻 Usage
 import colorArt from 'color-art'
 
